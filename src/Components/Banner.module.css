@@ -1,0 +1,56 @@
+
+.Background_Content {
+    height: 40vh;  
+    width: 100%; 
+    padding-top: 8%;
+    margin-bottom: 1%;
+    position: relative;
+}
+
+.Background_Content h1 {
+    color: white;
+    padding-left: 2%;
+}
+
+.Buttons {
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 2%;
+}
+
+.Button {
+    margin-right: 10px;
+    padding: 0.5rem 2rem;
+    background-color: rgba(162, 32, 32, 0.5);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    
+}
+
+
+.Movie_Description {
+    width: 30%;
+    max-width: 500px;
+    color: white;
+    font-size: 13px;
+    padding-left: 2%;
+}
+
+.FadeButton {
+    position: absolute;
+    bottom: 0;
+    /* margin-top: auto; */
+    height: 19vh;
+    width: 100%;
+    margin-left: 0;
+    background-image: linear-gradient(
+        180deg, 
+        transparent,
+        rgba(37,37,37, 0.61),
+        #111
+        );
+}

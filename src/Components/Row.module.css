@@ -1,0 +1,51 @@
+.Row_Title h1{
+    margin-left: 0.2%;
+    color: #fff;
+}
+.Container {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-left: 1%;
+}
+
+.Container::-webkit-scrollbar{
+    display: none;
+}
+
+.filmRows {
+    margin-right: 2%;
+    height: 20vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+.filmRows img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.filmRows:hover {
+    transform: scale(1.2);
+}
+
+.movieRows{
+    height: 15vh;
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+.movieRows:hover {
+    transform: scale(1.2);
+}
+.movieRows img {
+    height: 100%;
+    object-fit: contain; 
+}

@@ -1,0 +1,76 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.SigninScreen_Content {
+    position: absolute;
+    top: 25%;
+    color: #fff; 
+    background-color: #111;
+    padding: 70px 65px ;
+    display: flex;
+    justify-content: center;
+    /* width: 40%; */
+}
+
+.SigninScreen_form {
+    width: 300px;
+}
+
+.SigninScreen_form h1 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.SigninScreen_input {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.SigninScreen_input input{
+    width: 96%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.Buttons {
+    margin-top: 30px;
+}
+
+.Buttons button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: red;
+    font-size: 1rem ;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.SigninScreen_form h3 {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: gray;
+
+}
+
+.Signup_now {
+    font-weight: 600;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
