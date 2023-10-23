@@ -44,7 +44,7 @@ const Banner = () => {
         }}>
             <h1>{films?.title || films?.original_title}</h1>
             <div className={classes.Buttons}>
-                <button className={classes.Button}>Play</button>
+                <button className={classes.Button}>Play.</button>
                 <button className={classes.Button}>My List</button>
             </div>
             <div className={classes.Movie_Description}>
